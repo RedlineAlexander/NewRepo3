@@ -20,5 +20,17 @@ namespace NewRepo3.DependencyInjectionExampleKukhar
         {
             //throw new NotImplementedException();
         }
+
+        public string FortuneGetter()
+        {
+            return "GetterFortune";
+           // throw new NotImplementedException();
+        }
+
+        public string FortuneTeller()
+        {
+            return "TellerFortune";
+           // throw new NotImplementedException();
+        }
     }
 }
